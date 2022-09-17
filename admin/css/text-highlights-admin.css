@@ -1,0 +1,22 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ .th_wrapp .th_input {
+    display: flex;
+    margin-bottom: 20px;
+}
+.th_wrapp .th_input .leftbar {
+    width: 15%;
+}
+select#applied_post_types {
+    min-width: 150px;
+}
+.th_wrapp .th_input .rightbar {
+    width: 85%;
+}
+.key_phrases {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
